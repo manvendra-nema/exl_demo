@@ -1,5 +1,11 @@
 def generate_num():
-    pass
+    numbers = list(range(1, 11))
+    for number in numbers:
+        print(number)
+    return numbers #hh
+
+
+    pass 
 
 def avg(list_num):
     if not list_num:
@@ -10,6 +16,12 @@ def sd():
     pass
 
 def add(list_num):
+    #Ujjwal_start
+    if not list_num:
+        print("list is empty")
+        return 0
+    #Ujjwal_end
+
     return sum(list_num)
 
 
