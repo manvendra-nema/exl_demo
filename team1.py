@@ -5,8 +5,6 @@ def generate_num():
     return numbers #hh
 
 
-    pass 
-
 def avg(list_num):
     if not list_num:
         return 0
