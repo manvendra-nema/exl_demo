@@ -5,17 +5,21 @@ def generate_num():
     return numbers 
 
 
-    pass 
-
 def avg(list_num):
     if not list_num:   #arvind change
         return 0
-    return sum(list_num)/len(list_num)
-
+    return sum(list_num)/len(list_num) #manvendra comment2
+ 
 def sd():
     pass
 
 def add(list_num):
+    #Ujjwal_start
+    if not list_num:
+        print("list is empty")
+        return 0
+    #Ujjwal_end
+
     return sum(list_num)
 
 
