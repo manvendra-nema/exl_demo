@@ -8,7 +8,7 @@ def generate_num():
     pass 
 
 def avg(list_num):
-    if not list_num:   #arvind change1
+    if not list_num:   #arvind change
         return 0
     return sum(list_num)/len(list_num)
 
