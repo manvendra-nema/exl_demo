@@ -16,6 +16,12 @@ def sd():
     pass
 
 def add(list_num):
+    #Ujjwal_start
+    if not list_num:
+        print("list is empty")
+        return 0
+    #Ujjwal_end
+
     return sum(list_num)
 
 
