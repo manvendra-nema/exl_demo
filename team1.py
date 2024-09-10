@@ -4,8 +4,8 @@ def generate_num():
 def avg(list_num):
     if not list_num:
         return 0
-    return sum(list_num)/len(list_num)
-
+    return sum(list_num)/len(list_num) #manvendra comment2
+ 
 def sd():
     pass
 
