@@ -2,13 +2,13 @@ def generate_num():
     numbers = list(range(1, 11))
     for number in numbers:
         print(number)
-    return numbers #hh
+    return numbers 
 
 
     pass 
 
 def avg(list_num):
-    if not list_num:
+    if not list_num:   #arvind change1
         return 0
     return sum(list_num)/len(list_num)
 
